@@ -1,0 +1,7 @@
+MKSHELL=/bin/sh
+use-sh:V:
+	for i in a b c
+	do
+		echo $i
+	done
+
